@@ -24,8 +24,19 @@
         },    'https://qut360--devlim552.sandbox.my.site.com/study'  // Site endpoint
     );
 </script>  
+<script>
+    function bookAppointment(){
+        console.log('Book Appointment button is triggered');
+        document.getElementById("lexcontainer");
+    }
+</script>    
 
-<div id="lexcontainer">
-  <p>Lightning Component mentioned in the Script is invoked from here</p>
+<div>
+   <button onClick={bookAppointment}>Book Appointment</button>
+
+    <div id="lexcontainer">
+      <p>Lightning Component mentioned in the Script is invoked from here</p>
+    </div>
 </div>
+    
 </body>
