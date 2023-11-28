@@ -8,6 +8,9 @@
     .runtime_appointmentbookingFlowLocation .slds-visual-picker_vertical {
         display: inline-flex !important;
     }
+    #lexcontainer{
+        visibility: hidden;
+    }
 </style>
 <script src="https://qut360--devlim552.sandbox.my.site.com/study/lightning/lightning.out.js"></script>
 <script>
@@ -27,11 +30,11 @@
 <script>
     function bookAppointment(){
         console.log('Book Appointment button is triggered');
-        document.getElementById('lexcontainer').style.visibility = 'visible';
+        document.getElementById("lexcontainer").style.display = "block"; 
     }
 </script>    
 
-<button type="button" onclick={bookAppointment}>Book Appointment</button>
+<button type="button" onclick="bookAppointment()">Book Appointment</button>
 <div id="lexcontainer"></div> 
 
 </body>
