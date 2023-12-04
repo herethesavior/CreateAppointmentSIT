@@ -54,9 +54,8 @@
 <script>
     function bookAppointment(){
         document.getElementById("lexcontainer").style.display = "block"; 
-        document.getElementsByClassName("").style.display = "block"; 
-        var element = document.querySelector(".flowruntimeErrorText");
-        element.classList.add("slds-has-error");
+        let element = document.querySelector('.flowruntimeErrorText'); // LI
+        alert(element.closest('.slds-input')); // UL
         
     }
 </script>    
