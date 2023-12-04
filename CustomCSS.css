@@ -955,6 +955,10 @@ button.slds-button.slds-button_outline-brand:disabled {
   border-radius: 0;
 }   
 
+.slds-scope .slds-has-error .slds-input{
+  border: 1px solid var(--lwc-colorBorderError,rgb(234, 0, 30))) !important;
+}
+
 .slds-input:focus,
 .slds-combobox__input:focus
 {
