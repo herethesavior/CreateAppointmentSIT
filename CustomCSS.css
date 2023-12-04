@@ -941,7 +941,7 @@ button.slds-button.slds-button_outline-brand:disabled {
 
 .slds-form-element__label,
 .label-text {
-  font-family: "ProximaNova-Bold";
+  font-family: "ProximaNova";
   font-size: var(--text-size-18) !important;
   font-style: var(--text-normal);
   font-weight: var(--text-weight-700);
