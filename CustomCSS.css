@@ -955,8 +955,8 @@ button.slds-button.slds-button_outline-brand:disabled {
   border-radius: 0;
 }   
 
-.slds-has-error .slds-input{
-  border: 1px solid rgb(234, 0, 30) !important;
+.slds-has-error .slds-input {
+    border-color: var(--slds-c-pill-error-color-border, var(--sds-c-pill-error-color-border, var(--slds-g-color-error-base-40, var(--lwc-colorBorderError,rgb(234, 0, 30))))) !important;
 }
 
 .slds-input:focus,
