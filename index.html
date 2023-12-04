@@ -31,16 +31,13 @@
     #lexcontainer{
         display: none;
     }
-    .errormessage {
+    [aria-errormessage] {
       visibility: hidden;
     }
     
-    [aria-invalid="true"] {
-      outline: 2px solid red;
-    }
-    
-    [aria-invalid="true"] ~ .errormessage {
-      visibility: visible;
+    [aria-errormessage] {
+        border: 2px solid red !important;
+        visibility: visible;
     }
 </style>
 <script src="https://qut360--devalege4.sandbox.my.site.com/study/lightning/lightning.out.js"></script>
