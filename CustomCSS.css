@@ -950,7 +950,7 @@ button.slds-button.slds-button_outline-brand:disabled {
 }
 
 .slds-input{
-  border: 1px solid var(--main-color-blue500) !important;
+  border: 1px solid var(--main-color-blue500);
   height: 3rem;
   border-radius: 0;
 }   
