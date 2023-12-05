@@ -100,6 +100,18 @@
   footer.slds-card__footer {
     background: transparent !important;
   }
+
+ .slds-scope .slds-select_container:before, .slds-scope .slds-select_container:after {
+        position: absolute;
+        content: '';
+        display: none !important;
+        right: var(--lwc-spacingXSmall,0.5rem);
+        width: 0;
+        height: 0;
+        border-left: 3px solid transparent;
+        border-right: 3px solid transparent;
+        pointer-events: none;
+    }
 </style>
 <script src="https://qut360--devalege4.sandbox.my.site.com/study/lightning/lightning.out.js"></script>
 <script>
