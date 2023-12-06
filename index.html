@@ -123,9 +123,17 @@
             "https://qut360--devdela53.sandbox.my.site.com/study" // Site endpoint
         );
     </script>
+    <script>
+    function bookAppointment(){
+            document.getElementById("flow-container").style.display = "block";     
+        }
+    </script>    
+    <button type="button" onclick="bookAppointment()">Book Appointment</button>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 col-md-6" id="flow-container">DEVDELA53 Sandbox</div>
+            <div class="col-xs-12 col-md-6" id="flow-container">
+                <h1>Schedule Appointment - DEVDELA53 Sandbox</h1>
+            </div>
         </div>
     </div>
 </body>
