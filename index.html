@@ -114,7 +114,7 @@
                 $Lightning.createComponent(
                     "lightning:flow",     // top-level component of your app
                     {},                   // attributes to set on the component when created
-                    "flow-container",     // the DOM location to insert the component
+                    "flowcontainer",     // the DOM location to insert the component
                     function (component) {
                         component.startFlow("Bookable_Appointment_Web"); // API name of the Flow
                     }
@@ -123,16 +123,10 @@
             "https://qut360--devdela53.sandbox.my.site.com/study" // Site endpoint
         );
     </script>
-    <script>
-    function bookAppointment(){
-            document.getElementById("flow-container").style.display = "block";     
-        }
-    </script>    
-    <button type="button" onclick="bookAppointment()">Book Appointment</button>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 col-md-6" id="flow-container">
-                <h1>Schedule Appointment - DEVDELA53 Sandbox</h1>
+            <div class="col-xs-12 col-md-6" id="flowcontainer">
+                <h5>Schedule Appointment - DEVDELA53 Sandbox</h5>
             </div>
         </div>
     </div>
